@@ -35,11 +35,9 @@ required to be set up in your configuration for this sensor to work.
 Configuration variables:
 ------------------------
 
-- **temperature** (*Optional*): The information for the temperature.
-  sensor
+- **temperature** (*Optional*): The information for the temperature sensor.
 
-  - **name** (**Required**, string): The name for the temperature
-    sensor.
+  - **name** (**Required**, string): The name for the temperature sensor.
   - **oversampling** (*Optional*): The oversampling parameter for the temperature sensor.
     See :ref:`Oversampling Options <bmp280-oversampling>`.
   - **id** (*Optional*, :ref:`config-id`): Set the ID of this sensor for use in lambdas.
